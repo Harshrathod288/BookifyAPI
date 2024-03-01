@@ -11,7 +11,7 @@ var adminRouter = require('./routes/admin');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://Harshrathod288:Harshrathod288@harshrathod288.hrpyo6u.mongodb.net/CookBookify')
+mongoose.connect('mongodb+srv://sadsadsad:Harshrathod288@harshrathod288.hrpyo6u.mongodb.net/CookBookify')
   .then(() => console.log('Connected!'))
   .catch((error) => {
     console.log(error.message);
